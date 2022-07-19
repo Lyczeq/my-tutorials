@@ -14,6 +14,8 @@ let x = 2;
 x = "blobyay";
 ```
 
+# Declaring a variable
+
 # const
 
 Use to declare a constant value.
@@ -31,6 +33,8 @@ const obj = { a: 2 };
 
 obj.a = 3; // sure, why not?
 ```
+
+# A little bit of philosophy
 
 While in other languages the variable has a type...
 

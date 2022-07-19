@@ -1,10 +1,12 @@
-# document.getElementById
+# Selectors
 
-# document.getElementsByClassName
+## document.getElementById
 
-# document.querySelector, document.querySelectorAll
+## document.getElementsByClassName
 
-## Matching by id - prepend your ID with '#'
+## document.querySelector, document.querySelectorAll
+
+### Matching by id - prepend your ID with '#'
 ```javascript
 document.querySelector('#my-id');
 ```
@@ -13,13 +15,13 @@ document.querySelector('#my-id');
 document.getElementById(id) <=> document.querySelector('#' + id)
 ```
 
-## Matching by class - prepend class with '.'
+### Matching by class - prepend class with '.'
 
 ```javascript
 document.getElementsByClassName(className) <=> document.querySelectorAll('.' + className)
 ```
 
-## Matching by attribute value
+### Matching by attribute value
 
 ```html
 <input />
