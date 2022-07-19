@@ -20,7 +20,7 @@ function showType(value) {
 			break;
 		case 'null':
 		case 'undefined':
-			console.log('is "undefined"');
+			console.log('is not defined yet :(');
 			break;
 		default:
 			console.log('is something different, dunno');

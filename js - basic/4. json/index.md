@@ -27,5 +27,9 @@ const obj = {
 	b: undefined,
 }
 
-JSON.stringify(obj); // {}
+JSON.stringify(obj); // {}, some data is lost!
 ```
+
+## So objects only?
+
+Of course not - `JSON.parse(2)` will happily return the number 2, just like `JSON.parse(['u', 'n', 'o')` will parse the array succesfully.
