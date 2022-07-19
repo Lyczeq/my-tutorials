@@ -31,5 +31,21 @@ const numbers = [2, 5, 11, 6, 9, 3];
 
 Using Higher Order Functions:
 
-1. Return an array with the squared numbers.
-2. Find the first element that is greater than 35.
+Return an array with the squared numbers and then find the first element that is greater than 35. Do not use unnecessary variables.
+
+3. Using the Closure mechanism and the code below, create a function that takes another function used to filter the `characters` array.
+
+```js
+const init = () => {
+  const characters = ['Yoda', 'Anakin', 'Mace Windu', 'Ahsoka'];
+
+  return {
+    ...
+  };
+};
+```
+
+Then create two examples:
+
+1. That filters the characters that starts with an 'A' / 'a' letter.
+2. That filters the characters which length is greater than 5.
