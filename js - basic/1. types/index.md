@@ -31,17 +31,3 @@ let arr = ['a', 'b', 'c'];
 
 let arr = [{}, true, null];
 ```
-
-
-While in other languages the variable has a type...
-```c++
-std::string str = "kowboje.pl"; // str is of type std::string
-```
-
-In JS the *value* has a type, variable just points to it.
-
-```javascript
-let str = "kowboje.pl"; // "kowboje.pl" is of type String, str has the same type as it's value
-```
-
-
