@@ -8,7 +8,8 @@ const init = () => {
   let counter2 = 0; // the add function doesn't have access to this variable, because it's not used there
   return {
     add() {
-      return counter++;
+      counter++;
+      return counter;
     },
   };
 };
