@@ -45,6 +45,14 @@ const init = () => {
 };
 ```
 
+We want to achieve something like this:
+
+```js
+const filterer = init();
+
+const myCharacters = filterer.filter(--something--)
+```
+
 Then create two examples:
 
 1. That filters the characters that starts with an 'A' / 'a' letter.
