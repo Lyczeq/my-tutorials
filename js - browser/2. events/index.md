@@ -16,7 +16,22 @@ button.addEventListener('click', event => {
 });
 ```
 
-To remove event listener, use `removeEventListener` function - however remember that the fevent handler reference must be the same as the original, used in `addEventListener`.
+Other example:
+
+```html
+<input type="text" />
+```
+
+```javascript
+const input = document.querySelector('input');
+
+input.addEventListener('keydown', event => {
+	console.log(event.keyCode, event.key); // key that was pressed
+	console.log(event.target.value); // value BEFORE event
+});
+```
+
+To remove event listener, use `removeEventListener` function - however remember that the event handler reference must be the same as the original, used in `addEventListener`.
 
 ```javascript
 

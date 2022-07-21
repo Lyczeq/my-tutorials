@@ -1,4 +1,4 @@
-Write a `querySelector` (or `querySelectorAll`) to match all the *number* input's with class *green*.
+Write a `querySelector` (or `querySelectorAll`) to match all the *number* inputs with class *green*.
 
 ```html
 <form>

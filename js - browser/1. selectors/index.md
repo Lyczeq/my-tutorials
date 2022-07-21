@@ -36,7 +36,7 @@ document.querySelector('input[type=text]')
 Element type is not required, and you can specify multiple conditions.
 
 ```javascript
-document.querySelectorAll("[type=number,id=my-id]"); // type AND id
+document.querySelectorAll("[type=number][id=my-id]"); // type AND id
 ```
 
 ```
