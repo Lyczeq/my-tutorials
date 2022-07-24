@@ -102,3 +102,15 @@ function Component({ children }) {
   );
 }
 ```
+
+When we don't use `children` property we often use this syntax:
+
+```jsx
+function Hello({ name }) {
+  return <h1>Hello {name}</h1>;
+}
+```
+
+```js
+<Hello name="Yoda" />
+```
