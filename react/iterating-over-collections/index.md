@@ -66,6 +66,8 @@ return (
 );
 ```
 
+What about books? Cars? List of primes? SAP employees?
+
 ## Index as key?
 
 It may seem a good idea to use an index as a key. It's unique, right?

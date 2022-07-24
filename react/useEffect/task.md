@@ -17,7 +17,7 @@ function MyComponent() {
     <div>
       <label>
         Name
-        <input value={name} onChange={(e) => setName(e.target.value)} />{" "}
+        <input value={name} onChange={(e) => setName(e.target.value)} />
       </label>
       <label>
         Age
@@ -26,7 +26,7 @@ function MyComponent() {
           type="number"
           min="0"
           onChange={(e) => setAge(e.target.valueAsNumber)}
-        />{" "}
+        />
       </label>
     </div>
   );

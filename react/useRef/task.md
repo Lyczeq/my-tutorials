@@ -1,6 +1,6 @@
 Add ability to control the video playback speed. Use `playbackRate` property to change the current speed.
 
-TIP: you need to modify 4 lines of code code.
+TIP: you need to modify 4 lines of code.
 
 ```jsx
 import { useEffect, useState } from "react"; // 1

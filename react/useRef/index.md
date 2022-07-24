@@ -1,10 +1,11 @@
 # useRef
 
-Third of the arguably the most popular hooks of React - `useRef`. The use case we'll outline here deals with accessing the HTML elements explicilty.
+Third of the arguably the most popular hooks of React - `useRef`. The use case we'll outline here deals with accessing the HTML elements explicitly.
 
 ```jsx
 ...
-return <input id="my-id" />  // how can I get it in my component code?
+   ...
+   return <input id="my-id" />  // how can I get it in my component code?
 ...
 ```
 
@@ -30,6 +31,7 @@ import { useRef, useEffect } from "react";
 export default function App() {
   return <MyComponent />;
 }
+
 const MyComponent = () => {
   const myInput = useRef();
 
@@ -44,4 +46,4 @@ const MyComponent = () => {
 
 This will allow use to access browser APIs unavailable to React by default.
 
-Of course, there are other usecases for `useEffect`, but let's focus on that one.
+Of course, there are other use cases for `useEffect`, but let's focus on that one.

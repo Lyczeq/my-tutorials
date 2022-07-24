@@ -1,10 +1,12 @@
 # React hooks
 
-So, what actually are hooks? They are little builtin functions that allow us to **perform stuff**.
+So, what actually are the mighty hooks? They are little builtin functions that allow us to **✨✨perform stuff✨✨**.
 
 ## useState
 
-Since now everything was stateless - we couldn't store any data in our React components. Notice that: 1) The changes to our variables aren't shown in resulting page. 2) With each render our value will be overwritten.
+Since now everything was stateless - we couldn't store any data in our React components. Notice that:
+	1) The changes to our variables aren't shown in resulting page. 
+	2) With each render our value will be overwritten.
 
 ```jsx
 export default function App() {
@@ -23,18 +25,18 @@ function MyComponent() {
     myVariable += 2;
   };
 
-  return <p onClick={handleClick}>{myVariable}</p>;
+  return <button onClick={handleClick}>{myVariable}</button>;
 }
 ```
 
-What should we do? Here comes shiny `useState` hook.
+React doesn't know that `myVariable` has changed. What should we do? Here comes shiny `useState` hook.
 
 ```jsx
 import { useState } from "react";
 
 function Counter() {
   const [count, setCount] = useState(0);
-  // `useState` is the initial value
+  // `useState` argument is the initial value
   // `count`    is the current value
   // `setCount` is the function to change the value
 
@@ -42,7 +44,7 @@ function Counter() {
     setCount(count + 1);
   };
 
-  return <p onClick={handleSomeEvent}>{count}</p>;
+  return <buttonž onClick={handleSomeEvent}>{count}</button>;
 }
 ```
 
