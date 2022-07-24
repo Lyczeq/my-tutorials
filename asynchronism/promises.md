@@ -17,7 +17,7 @@ const promise = new Promise((resolve, reject) => {
 const testPromise = promise
   .then(data => console.log(data)) // then is used to go to the next step of the promise
   .catch(data => console.error(data)) // catch and finally are used like in the try...catch
-  .finally(_ => console.log('Finally!'));
+  .finally(() => console.log('Finally!'));
 console.log('I am first!');
 ```
 

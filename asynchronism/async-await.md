@@ -65,6 +65,7 @@ const getStarWarsData = async () => {
   const starWarsData = await response.json();
   console.log(starWarsData);
 };
+getStarWarsData();
 /*
 {   ....
     hair_color: "blond"

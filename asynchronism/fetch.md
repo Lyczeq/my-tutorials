@@ -15,7 +15,6 @@ const response = fetch('https://swapi.dev/api/people/1/');
 const starWarsData = response
   .then(response => response.json())
   .then(data => console.log(data));
-console.log(starWarsData);
 /*
 {   ....
     hair_color: "blond"
@@ -27,6 +26,8 @@ console.log(starWarsData);
     ...
 }
 */
+console.log(starWarsData);
+// Promise {<pending>}
 ```
 
 Now, we can fetch data from an external API 😎.
