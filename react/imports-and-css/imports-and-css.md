@@ -110,8 +110,6 @@ div {
 
 ### How to use it with React components?
 
-Import first
-
 ```jsx
 import './MyComponent.css';
 
@@ -159,6 +157,6 @@ div {
 }
 ```
 
-Of course, there are many more which you can find in Google.
+Of course, there are many, many more which you can find in Google.
 
 I highly recommend to read about `flex` and `grid`. These two features will help you how to position the elements.

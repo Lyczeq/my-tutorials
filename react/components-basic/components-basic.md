@@ -114,3 +114,6 @@ function Hello({ name }) {
 ```js
 <Hello name="Yoda" />
 ```
+
+Question:
+What will happen if we specify `children` as a attribute and then we declare something between component's brackets?
