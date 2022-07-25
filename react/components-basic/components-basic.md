@@ -56,7 +56,7 @@ function Hello(props) {
 
 ```jsx
 function Hello({ name }) {
-  return <h1>Hello {name}</h1>;
+  return <h1 className={`greetings ${name}`}>Hello {name}</h1>;
 }
 ```
 
