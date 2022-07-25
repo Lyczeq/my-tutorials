@@ -93,6 +93,8 @@ Firstly, CSS is not a part of React which we're talking today but I'll show you 
 
 We usually use `box-model: border-box` property because it facilitates styling and setting size of elements.
 
+### Let's write some CSS!
+
 ```css
 p {
   color: red;
