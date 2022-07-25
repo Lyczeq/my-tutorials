@@ -44,7 +44,7 @@ function Counter() {
     setCount(count + 1);
   };
 
-  return <buttonž onClick={handleSomeEvent}>{count}</button>;
+  return <button onClick={handleSomeEvent}>{count}</button>;
 }
 ```
 

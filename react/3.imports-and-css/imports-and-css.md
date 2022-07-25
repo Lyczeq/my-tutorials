@@ -111,10 +111,10 @@ p {
 ```css
 div {
   background-color: grey;
+}
 
-  .my-class {
-    color: blue;
-  }
+.my-class {
+  color: blue;
 }
 ```
 
@@ -139,7 +139,7 @@ function MyComponent() {
 
 ```css
 div {
-  margin: 20px, 10px, 50px, 10px;
+  margin: 20px 10px 50px 10px;
 }
 ```
 
@@ -147,7 +147,7 @@ div {
 
 ```css
 div {
-  padding: 20px, 10px, 50px, 10px;
+  padding: 20px 10px 50px 10px;
 }
 ```
 
