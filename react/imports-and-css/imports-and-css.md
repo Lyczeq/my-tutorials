@@ -74,6 +74,8 @@ function Hello() {
 }
 ```
 
+We can use a default and a named export in a single file but usually we don't do that.
+
 ## CSS
 
 We learned how to structure HTML elements, how to interact with them but let's talk how to style them.
