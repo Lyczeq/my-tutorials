@@ -20,11 +20,11 @@ useEffect(() => {
 });
 ```
 
-Is there a use case for that? Of course, but it's pretty advanced one. To be honest, I never used that.ž
+Is there a use case for that? Of course, but it's pretty advanced one. To be honest, I never used that.
 
 ## Case 2: empty dependency array
 
-This is getting interesting - it will run only once, when component is registered into React - **mounted**.
+This is getting interesting - it will run only once, when component is mounted.
 
 ```jsx
 useEffect(() => {
@@ -48,13 +48,13 @@ useEffect(() => {
 
 Useful when we need to perform some side **EFFECTS** when something changes - but then and only then.
 
-Note that React checks by reference if object changes, so:
+Note that React uses reference to check if an object has changed, so:
 
 ```jsx
 const myObj = {
-	prop1,
-	state1,
-}
+  prop1,
+  state1,
+};
 
 useEffect(() => {
   console.log("State changed I guess");

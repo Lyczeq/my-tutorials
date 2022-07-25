@@ -43,5 +43,5 @@ onClick={alert(`Hello ${name}`)}
 ...
 ```
 
-Because this function will be called when component is mounted. What is more, onClick takes function as an argument, not value which in this case is `void`.
+Because this function will be called when component is registered into React - **mounted**. What is more, onClick takes function as an argument, not value which in this case is `void`.
 We had similar approach in pure JS, so it shouldn't shock you 🤓.
