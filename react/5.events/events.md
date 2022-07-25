@@ -13,25 +13,25 @@ etc...
 ## Usage
 
 ```jsx
-const Hello = ({ name }) => {
+const HelloComponent = ({ name }) => {
   const handleButtonClick = () => {
     console.log(`Hello ${name}`);
   };
 
-  <button onClick={handleButtonClick}>Click me!</button>;
+  return <button onClick={handleButtonClick}>Click me!</button>;
 };
 ```
 
 ```jsx
-<Hello name="Palpatine" />
+<HelloComponent name="Palpatine" />
 // after clicking a button, we get a "Hello Palpatine" log in the console
 ```
 
 Of course, we can also use anonymous functions:
 
 ```jsx
-const Hello = ({ name }) => {
-  <button onClick={() => alert(`Hello ${name}`)}>Click me!</button>;
+const HelloComponent = ({ name }) => {
+  return <button onClick={() => alert(`Hello ${name}`)}>Click me!</button>;
 };
 ```
 
@@ -45,5 +45,3 @@ onClick={alert(`Hello ${name}`)}
 
 Because this function will be called when component is mounted. What is more, onClick takes function as an argument, not value which in this case is `void`.
 We had similar approach in pure JS, so it shouldn't shock you 🤓.
-
-

@@ -39,6 +39,17 @@ function PartsList() {
       },
     },
     {
+      count: 2,
+      spec: {
+        length: "100mm",
+        widthLength: "20mm",
+      },
+      metadata: {
+        name: "Aluminium profile",
+        partId: "*G&^(T$&*WI",
+      },
+    },
+    {
       count: 3,
       spec: {
         length: "180mm",

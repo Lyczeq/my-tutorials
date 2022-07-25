@@ -84,7 +84,7 @@ Firstly, CSS is not a part of React which we're talking today but I'll show you 
 
 ### Box model
 
-<img src="./assets/box-model.png">
+![](./assets/box-model.png)
 
 - Blue color - content
 - Green color - padding (think about it like a liner)
