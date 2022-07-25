@@ -54,6 +54,8 @@ export function Component() {
 export function Component2() {
   return <h1>hello</h1>;
 }
+
+export const jediName = 'Yoda';
 ```
 
 During component's declaration we use an `export` keyword. We can have multiple exports in a single file.
@@ -61,7 +63,11 @@ During component's declaration we use an `export` keyword. We can have multiple 
 ### Usage
 
 ```jsx
-import { Component, Component2 as MyComponentName } from './Component.js';
+import {
+  Component,
+  jediName,
+  Component2 as MyComponentName,
+} from './Component.js';
 // when we use a named export, the name stays the same when importing
 // we can change it using `as` keyword
 function Hello() {
