@@ -18,7 +18,7 @@ return (
 
 It DOES work, but we receive an error in our dev console:
 
-![](./brzydko.png)
+![](./ugly.png)
 
 What's that mysterious `key` property? It helps React to know which elements need re-render during an iteration. Without it, it will re-render entire list each time it changes - which may be silly if the lists contains thousands of items.
 
