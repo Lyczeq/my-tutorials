@@ -7,7 +7,7 @@ c
 d
 ```
 
-```
+```js
 	const arr = ['a', 'b', 'c', 'd'];
 
 	for (...)
@@ -15,17 +15,19 @@ d
 ```
 
 2. Write a check for a palindrome.
-```
-const str = 'kajak';
+
+```js
+const str = 'kayak';
 
 ...
 ```
 
 3. Write a code to display jagged 2D array:
-```
-const array = [0, [1, 2], null, 3, [4, 5, 6]];
 
+```js
+const array = [0, [1, 2], null, 3, [4, 5, 6]];
 
 // expected output: 0 1 2 3 4 5 6 (separated by newline)
 ```
-TIP: *typeof* from previous exercises might be useful.
+
+TIP: _typeof_ from previous exercises might be useful.

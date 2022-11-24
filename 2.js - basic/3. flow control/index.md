@@ -16,7 +16,7 @@ do {
 
 ```javascript
 for (let i = 0; i < 5; i++) {
-	console.log(i);
+  console.log(i);
 }
 ```
 
@@ -24,23 +24,23 @@ for (let i = 0; i < 5; i++) {
 
 ```javascript
 for (const element of ['good', 'bad', 'ugly']) {
-	console.log(element);
+  console.log(element);
 }
 ```
 
 4. `for..in` - loops over keys. This gets interesting, as it works both on arrays and objects.
 
 ```javascript
-const obj = {a: 2, b: 3};
+const obj = { a: 2, b: 3 };
 for (const key of obj) {
-	console.log(obj);
+  console.log(obj);
 }
 // a
 // b
 
-const arr = ['jacek', 'placek', 'agatka'];
+const arr = ['pikachu', 'snorlax', 'psyduck'];
 for (const index of arr) {
-	console.log(index);
+  console.log(index);
 }
 // 0
 // 1
@@ -52,6 +52,7 @@ The stuff like `break` & `continue` works in all of those loops.
 # Conditionals
 
 1. `if`
+
 ```javascript
 if (a) {
 	...
@@ -84,10 +85,10 @@ Nothing fancy here - our familiar trio of `try..catch..finally`.
 
 ```javascript
 try {
-	throw Error('BANG');
-} catch(e) {
-	console.log(e);
+  throw Error('BANG');
+} catch (e) {
+  console.log(e);
 } finally {
-	console.log('yeah, finally')
+  console.log('yeah, finally');
 }
 ```
