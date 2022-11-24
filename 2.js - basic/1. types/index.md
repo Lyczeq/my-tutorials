@@ -18,11 +18,11 @@
 		a: 2,
 		str: 'bird',
 		nested: { // of course nesting is supported
-			diki: true
+			nestedChild: true
 		}
 	}
 	```
-	We can access properties by path, so `obj.nested.diki` resolves to *true*. There's another method of accessing object properties - via `[]`, so `obj['str']` is *bird*. Note the ''!
+	We can access properties by path, so `obj.nested.nestedChild` resolves to *true*. There's another method of accessing object properties - via `[]`, so `obj['str']` is *bird*. Note the ''!
 
 ## undefined and null? Why?
 

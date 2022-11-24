@@ -11,7 +11,7 @@ Use to declare a variable which can change.
 ```javascript
 let x = 2;
 
-x = "blobyay";
+x = 'blobyay';
 ```
 
 # Declaring a variable
@@ -38,12 +38,12 @@ obj.a = 3; // sure, why not?
 
 While in other languages the variable has a type...
 
-```c++
-std::string str = "kowboje.pl"; // str is of type std::string
+```java
+String str = "pokemon.com"; // str is of type std::string
 ```
 
 In JS the _value_ has a type, variable just points to it.
 
 ```javascript
-let str = "kowboje.pl"; // "kowboje.pl" is of type String, str has the same type as it's value
+let str = 'pokemon.com'; // "pokemon.com" is of type String, str has the same type as it's value
 ```

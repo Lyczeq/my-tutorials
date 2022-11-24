@@ -1,6 +1,6 @@
 What will be the output of the following code?
 
-```
+```js
 const a = 2;
 
 if (true) {
@@ -18,7 +18,7 @@ console.log('finally', a)
 ```
 
 
-```
+```js
 let a = 2;
 
 if (true) {
