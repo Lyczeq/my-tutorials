@@ -1,4 +1,4 @@
-#Events
+# Events
 
 Events happen when something specific happens on page - that could be user clicking an element or pressing a keyboard key. They need a source, which will (possibly) emit the event.
 

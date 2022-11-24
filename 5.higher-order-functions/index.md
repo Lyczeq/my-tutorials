@@ -26,24 +26,6 @@ const filteredArray = filterArray(isEven, myArray);
 console.log(filteredArray); // [2,4]
 ```
 
-2. Let's play the scene from the Star Wars Universe when master Obi Wan Kenobi finds General Grievous on the Utapau planet.
-
-```js
-const helloThere = greetingsFunction => {
-  const helloGeneral = name => `- ${greetingsFunction()}- General ${name}!`;
-
-  return helloGeneral;
-};
-
-const greetings = () => `Hello there!\n`;
-
-const hello = helloThere(greetings);
-
-console.log(hello('Kenobi'));
-// - Hello there!
-// - General Kenobi!
-```
-
 ## Array methods
 
 There are many array methods that you will surely use.

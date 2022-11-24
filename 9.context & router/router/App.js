@@ -1,23 +1,4 @@
-
-// to nie działało
-// export default function BasicExample() {
-//     return (
-    //       <BrowserRouter>
-    //         <Routes>
-    //           <Route path="/" element={<Home dupa={-3} />}>
-//             <Route path="about" element={<About />} />
-//             <Route path="dashboard" element={<Navigate to="dashboards" />}>
-//               <Route path=":id" element={<Dashboard />} />
-//             </Route>
-//             <Route path="dashboards" element={<DashboardList />} />
-//             {/* <Route path="*" element={<Navigate to="/" />} /> */}
-//           </Route>
-//         </Routes>
-//       </BrowserRouter>
-//     );
-//   }
-
-import React from "react";
+import React from 'react';
 import {
   BrowserRouter,
   Route,
@@ -26,13 +7,13 @@ import {
   Link,
   useParams,
   Navigate,
-} from "react-router-dom";
+} from 'react-router-dom';
 
 export default function BasicExample() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/home" element={<Home dupa={-3} />} />
+        <Route path="/home" element={<Home test={-3} />} />
         <Route path="/about" element={<About />} />
         <Route
           path="/dashboard"
@@ -56,13 +37,13 @@ function DashboardList() {
   );
 }
 
-function Home({ dupa }) {
+function Home({ test }) {
   const navigate = useNavigate();
 
   return (
     <div>
-      <h2>Home {dupa}</h2>
-      <button onClick={() => navigate("/about")}>GO TO ABOUT</button>
+      <h2>Home {test}</h2>
+      <button onClick={() => navigate('/about')}>GO TO ABOUT</button>
     </div>
   );
 }
