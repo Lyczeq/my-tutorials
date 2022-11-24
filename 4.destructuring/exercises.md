@@ -17,7 +17,7 @@ const car = {
 };
 ```
 
-3. Using the spread operator and a special function, find a max value of the following array:
+3. Using the spread operator and a special math function, find a max value of the following array:
 
 ```js
 const array = [2, 5, 13, 8];
