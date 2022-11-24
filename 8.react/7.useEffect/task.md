@@ -1,8 +1,8 @@
 Add `useState`s to log to console:
-_ On component mount
-_ On each render
-_ When `name` changes
-_ When `age` changes - When either `name` or `age` changes.
+- On component mount
+- On each render
+- When `name` changes
+- When `age` changes - When either `name` or `age` changes.
 
 ```jsx
 import { useState, useEffect } from "react";
