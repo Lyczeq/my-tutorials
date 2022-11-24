@@ -26,10 +26,11 @@ const filteredArray = filterArray(isEven, myArray);
 console.log(filteredArray); // [2,4]
 ```
 
-2. So, as we've known, the function can return another function that we can call later. The example below shows: 
-  - `greeter` is a function that returns a function
-  - `helloFunction` is a function returned from the `greeter` function. We passed `Hello` as a greet argument.
-  - Then we call `helloFunction` and pass `Baby Yoda` as a `name` argument
+2. So, as we've known, the function can return another function that we can call later. The example below shows:
+
+- `greeter` is a function that returns a function
+- `helloFunction` is a function returned from the `greeter` function. We passed `Hello` as a greet argument.
+- Then we call `helloFunction` and pass `Baby Yoda` as a `name` argument
 
 ```js
 const greeter = (greet) => (name) => console.log(`${greet} ${name}`!);
@@ -39,6 +40,10 @@ const helloFunction = greeter('Hello');
 helloFunction('Baby Yoda');
 
 ```
+
+const `helloFunction = greeter('Hello')`;
+it's equivalent to
+const `` helloFunction = (name) => { const greet = "Hello"; console.log(`${greet} ${name}!); } ``
 
 ## Array methods
 

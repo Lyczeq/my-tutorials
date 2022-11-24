@@ -39,6 +39,6 @@ Element type is not required, and you can specify multiple conditions.
 document.querySelectorAll("[type=number][id=my-id]"); // type AND id
 ```
 
-```
+```js
 document.querySelectorAll("[type=number], [id=my-id]"); // type OR id
 ```
