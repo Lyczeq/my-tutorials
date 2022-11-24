@@ -28,7 +28,7 @@
 
 `undefined` means the variable doesn't exists yet.
 
-`null` means the variable *does* exists, but it has no value.
+`null` means the variable *does* exist, but it has no value.
 
 
 ## Arrays

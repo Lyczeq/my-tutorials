@@ -32,14 +32,14 @@ for (const element of ['good', 'bad', 'ugly']) {
 
 ```javascript
 const obj = { a: 2, b: 3 };
-for (const key of obj) {
+for (const key in obj) {
   console.log(obj);
 }
 // a
 // b
 
 const arr = ['pikachu', 'snorlax', 'psyduck'];
-for (const index of arr) {
+for (const index in arr) {
   console.log(index);
 }
 // 0
