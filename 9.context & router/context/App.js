@@ -1,25 +1,25 @@
 import React from "react";
-import { useMójKontekst, MójKontekstProvider } from "./MójKontekst";
+import { useMyContext, MyContextProvider } from "./MyContext";
 
 export default function App() {
   return (
-    <MójKontekstProvider>
-      <JakieśMójKomponentCoPisze />
-      <JakieśMójKomponentCoCzyta />
-    </MójKontekstProvider>
+    <MyContextProvider>
+      <AComponentWhichWrites />
+      <AComponentWhichReads />
+    </MyContextProvider>
   );
 }
 
-function JakieśMójKomponentCoPisze() {
-  const { stan, setStan } = useMójKontekst();
+function AComponentWhichWrites() {
+  const { state, setState } = useMyContext();
 
-  return <button onClick={() => setStan(stan + 1)}>Dodaj</button>;
+  return <button onClick={() => setState(state + 1)}>Dodaj</button>;
 }
 
-function JakieśMójKomponentCoCzyta() {
-  const context = useMójKontekst();
+function AComponentWhichReads() {
+  const context = useMyContext();
 
-  const { stan } = context;
+  const { state } = context;
 
-  return <p>Stan: {stan}</p>;
+  return <p>Stan: {state}</p>;
 }
