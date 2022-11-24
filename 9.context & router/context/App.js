@@ -13,7 +13,7 @@ export default function App() {
 function AComponentWhichWrites() {
   const { state, setState } = useMyContext();
 
-  return <button onClick={() => setState(state + 1)}>Dodaj</button>;
+  return <button onClick={() => setState(state + 1)}>Add one</button>;
 }
 
 function AComponentWhichReads() {
