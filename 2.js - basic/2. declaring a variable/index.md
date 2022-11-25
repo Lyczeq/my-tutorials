@@ -39,7 +39,7 @@ obj.a = 3; // sure, why not?
 While in other languages the variable has a type...
 
 ```java
-String str = "pokemon.com"; // str is of type std::string
+String str = "pokemon.com"; // str is of type String
 ```
 
 In JS the _value_ has a type, variable just points to it.
