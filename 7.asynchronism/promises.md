@@ -6,7 +6,7 @@ The Promise object takes a function of two other functions as the argument, we o
 `resolve` is used when the operation was completed succesfully and `reject` when there was a failure.
 
 ```js
-const isTrue = false;
+const isTrue = true;
 const promise = new Promise((resolve, reject) => {
   if (isTrue) {
     resolve('Everything is fine 😁'); //When a success, finish and return the passed value
