@@ -1,9 +1,9 @@
-import { useState } from "react";
+import React from 'react';
+import { useState } from 'react';
 
 export default function App() {
   return <Counter />;
 }
-
 
 function Counter() {
   const [count, setCount] = useState(0);
