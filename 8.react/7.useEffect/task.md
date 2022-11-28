@@ -1,14 +1,15 @@
 Add `useState`s to log to console:
+
 - On component mount
 - On each render
 - When `name` changes
 - When `age` changes - When either `name` or `age` changes.
 
 ```jsx
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 function MyComponent() {
-  const [name, setName] = useState("Zdzisiek");
+  const [name, setName] = useState('Bobby');
   const [age, setAge] = useState(54);
 
   // add hooks here...
@@ -17,7 +18,7 @@ function MyComponent() {
     <div>
       <label>
         Name
-        <input value={name} onChange={(e) => setName(e.target.value)} />
+        <input value={name} onChange={e => setName(e.target.value)} />
       </label>
       <label>
         Age
@@ -25,7 +26,7 @@ function MyComponent() {
           value={age}
           type="number"
           min="0"
-          onChange={(e) => setAge(e.target.valueAsNumber)}
+          onChange={e => setAge(e.target.valueAsNumber)}
         />
       </label>
     </div>

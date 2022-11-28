@@ -20,7 +20,7 @@ function MyComponent() {
   let myVariable = 2.713;
 
   const handleClick = () => {
-    console.log("KLIK!", myVariable);
+    console.log("CLICK!!", myVariable);
     // will it be shown on page?
     myVariable += 2;
   };
