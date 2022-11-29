@@ -1,5 +1,5 @@
-import React from "react";
-import { useMyContext, MyContextProvider } from "./MyContext";
+import React from 'react';
+import { useMyContext, MyContextProvider } from './MyContext';
 
 export default function App() {
   return (
@@ -21,5 +21,5 @@ function AComponentWhichReads() {
 
   const { state } = context;
 
-  return <p>Stan: {state}</p>;
+  return <p>State: {state}</p>;
 }
